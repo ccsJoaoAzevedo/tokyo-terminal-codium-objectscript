@@ -2,6 +2,44 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Tokyo Terminal",
 	"type": "dark",
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"COS_Macro": {
+			"foreground": "#fc5698",
+			"bold": true
+		},
+		"COS_Routine": {
+			"foreground": "#fe8019",
+			"bold": true
+		},
+		"COS_Label": {
+			"foreground": "#fc5698",
+			"bold": true
+		},
+		"COS_Extrinsicfunction": {
+			"foreground": "#fc5698",
+			"bold": true
+		},
+		"COS_PreProcessor": {
+			"foreground": "#D66666",
+			"bold": true
+		},
+		"COS_PreProcessorCommand": {
+			"foreground": "#D66666",
+			"bold": true
+		},
+		"COS_PreProcessorFunction": {
+			"foreground": "#D66666",
+			"bold": true
+		},
+		"COS_Globalvariable": "#d66666",
+		"COS_Parameter": "#ff75f4",
+		"CLS_Parameter": "#ff75f4",
+		"CLS_ClassParameter": "#ff75f4",
+		"COS_Localvariable": "#ACEEEE",
+		"COS_Localvariableprivate": "#ACEEEE",
+		"COS_Localundeclared": "#ACEEEE"
+	},
 	"colors": {
 		"activityBar.background": "#2a2436",
 		"activityBar.foreground": "#fc5698",
@@ -529,7 +567,9 @@
 		{
 			"scope": [
 				"meta.preprocessor",
-				"keyword.control.directive.conditional.c"
+				"keyword.control.directive.conditional.c",
+				"variable.name.global.objectscrip",
+				"variable.name.global.objectscript"
 			],
 			"settings": {
 				"foreground": "#D66666",
