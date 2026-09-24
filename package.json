@@ -1,6 +1,6 @@
 {
-  "name": "tokyo-terminal-codium",
-  "publisher": "TSLST",
+  "name": "tokyo-terminal-codium-objectscript",
+  "publisher": "local",
   "icon": "images/tokyo-terminal-jack.png",
   "displayName": "Tokyo Terminal",
   "description": "Retro futurist 80s terminal, synthwave, Tokyo neons theme.",
